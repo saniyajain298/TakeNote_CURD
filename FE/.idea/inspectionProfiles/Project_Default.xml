@@ -1,0 +1,52 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="courses.models.Courses.objects" />
+          <option value="courses.models.EnrolledCourses.objects" />
+          <option value="users.models.CustomUser.DoesNotExist" />
+          <option value="users.models.RolesPermission.objects" />
+          <option value="users.models.SellerProfile.objects" />
+          <option value="users.models.SellerProfile.DoesNotExist" />
+          <option value="courses.models.CourseCart.DoesNotExist" />
+          <option value="courses.models.Courses.DoesNotExist" />
+          <option value="courses.models.CourseChapter.objects" />
+          <option value="courses.models.CourseLesson.objects" />
+          <option value="courses.models.CourseChapter.DoesNotExist" />
+          <option value="courses.models.CourseRatings.objects" />
+          <option value="user.models.SellerProfile.DoesNotExist" />
+          <option value="user.models.SellerProfile.objects" />
+          <option value="user.models.RolesPermission.objects" />
+          <option value="user.models.CustomUser.DoesNotExist" />
+          <option value="common.models.CourseCategory.objects" />
+          <option value="common.models.SubCourseCategory.objects" />
+          <option value="courses.models.CourseLesson.DoesNotExist" />
+          <option value="courses.models.CourseCart.objects" />
+          <option value="courses.models.CoursesViews.objects" />
+          <option value="common.models.AudioLanguages.objects" />
+          <option value="courses.models.CourseProgress.objects" />
+          <option value="courses.models.ReplyToReview.objects" />
+          <option value="courses.models.TransactionCourseId.objects" />
+          <option value="django.db.models.fields.json.loads" />
+          <option value="courses.models.CourseTransactions.objects" />
+          <option value="dict.items" />
+          <option value="rest_framework_simplejwt.tokens.Token.access_token" />
+          <option value="users.models.ForgetPasswordRequest.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.last_name" />
+          <option value="django.db.models.fields.related.ForeignKey.first_name" />
+          <option value="courses.models.BookmarkCourses.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
